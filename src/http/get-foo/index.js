@@ -113,8 +113,6 @@ exports.handler = async function http(req) {
             return regex.test(i.title);
         });
 
-        console.log('test match', i.title, subscription);
-
         // skip if it doesn't match any subscription
         if (!subscription) return;
 
@@ -210,6 +208,7 @@ exports.handler = async function http(req) {
     const xml = outputFeed.xml({ indent: ' ' });
 
     return {
+        statusCode: 200,
         headers: {
             'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
             'content-type': 'application/rss+xml; charset=utf8',
