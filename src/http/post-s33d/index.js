@@ -108,6 +108,12 @@ exports.handler = async function http() {
             latestSeason: 0,
             latestEpisode: 2,
         },
+        {
+            filter: '^Made.for.Love.+1080p',
+            key: 'Made.for.Love',
+            latestSeason: 1,
+            latestEpisode: 8,
+        },
     ];
 
     await data.set(subscriptions.map((e) => ({
