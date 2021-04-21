@@ -49,7 +49,7 @@ exports.handler = async function http() {
         {
             filter: '^Snowpiercer.+1080p',
             key: 'Snowpiercer',
-            latestSeason: 1,
+            latestSeason: 2,
             latestEpisode: 10,
         },
         {
@@ -81,7 +81,7 @@ exports.handler = async function http() {
             key: 'Attack on Titan',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 69,
+            latestEpisode: 75,
         },
         {
             filter: '^Search.Party.+1080p',
@@ -93,7 +93,20 @@ exports.handler = async function http() {
             filter: '^Painting.with.John.+1080p',
             key: 'Painting with John',
             latestSeason: 1,
-            latestEpisode: 4,
+            latestEpisode: 6,
+        },
+        {
+            filter: '^Birdgirl.+1080p',
+            key: 'Birdgirl',
+            latestSeason: 1,
+            latestEpisode: 3,
+        },
+        {
+            filter: 'Super.Cub.+1080p',
+            key: 'Super Cub',
+            feed: 'AB', // only use on "AB" feed
+            latestSeason: 0,
+            latestEpisode: 2,
         },
     ];
 
