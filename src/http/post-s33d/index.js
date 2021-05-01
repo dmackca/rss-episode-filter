@@ -99,20 +99,26 @@ exports.handler = async function http() {
             filter: '^Birdgirl.+1080p',
             key: 'Birdgirl',
             latestSeason: 1,
-            latestEpisode: 3,
+            latestEpisode: 4,
         },
         {
             filter: 'Super.Cub.+1080p',
             key: 'Super Cub',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 2,
+            latestEpisode: 4,
         },
         {
             filter: '^Made.for.Love.+1080p',
             key: 'Made.for.Love',
             latestSeason: 1,
             latestEpisode: 8,
+        },
+        {
+            filter: '^This.Time.With.Alan.Partridge.+1080p',
+            key: 'This Time With Alan Partridge',
+            latestSeason: 2,
+            latestEpisode: 1,
         },
     ];
 
