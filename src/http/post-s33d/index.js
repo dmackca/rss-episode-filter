@@ -106,14 +106,14 @@ exports.handler = async function http() {
             key: 'Super Cub',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 7,
+            latestEpisode: 10,
         },
         {
             filter: 'Godzilla.Singular.Point.+1080p',
             key: 'Godzilla Singular Point',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 8,
+            latestEpisode: 11,
         },
         {
             filter: '^Made.for.Love.+1080p',
@@ -125,7 +125,19 @@ exports.handler = async function http() {
             filter: '^This.Time.With.Alan.Partridge.+1080p',
             key: 'This Time With Alan Partridge',
             latestSeason: 2,
-            latestEpisode: 3,
+            latestEpisode: 6,
+        },
+        {
+            filter: '^Tuca.+Bertie.+1080p',
+            key: 'Tuca & Bertie',
+            latestSeason: 2,
+            latestEpisode: 1,
+        },
+        {
+            filter: '^Kevin.Can.Fuck.Himself.+1080p',
+            key: 'Kevin.Can.Fuck.Himself',
+            latestSeason: 1,
+            latestEpisode: 2,
         },
     ];
 
