@@ -23,18 +23,6 @@ exports.handler = async function http() {
             latestEpisode: 10,
         },
         {
-            filter: '^Kidding.+1080p',
-            key: 'Kidding',
-            latestSeason: 2,
-            latestEpisode: 10,
-        },
-        {
-            filter: '^on.becoming.a.god.in.central.florida.+1080p',
-            key: 'on.becoming.a.god.in.central.florida',
-            latestSeason: 1,
-            latestEpisode: 10,
-        },
-        {
             filter: '^(Genndy.Tartakovskys.)?Primal.S[0-9]{2}.+1080p',
             key: 'Genndy.Tartakovskys.Primal',
             latestSeason: 1,
@@ -50,12 +38,6 @@ exports.handler = async function http() {
             filter: '^Snowpiercer.+1080p',
             key: 'Snowpiercer',
             latestSeason: 2,
-            latestEpisode: 10,
-        },
-        {
-            filter: '^Lovecraft.Country.+1080p',
-            key: 'Lovecraft.Country',
-            latestSeason: 1,
             latestEpisode: 10,
         },
         {
