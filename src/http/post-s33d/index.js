@@ -122,6 +122,12 @@ exports.handler = async function http() {
             latestSeason: 1,
             latestEpisode: 2,
         },
+        {
+            filter: '^PEN15.+1080p',
+            key: 'PEN15',
+            latestSeason: 2,
+            latestEpisode: 7,
+        },
     ];
 
     await data.set(subscriptions.map((e) => ({
