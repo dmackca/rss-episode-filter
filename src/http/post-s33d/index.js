@@ -32,8 +32,8 @@ exports.handler = async function http() {
         {
             filter: '^Rick.+Morty.+1080p',
             key: 'Rick.Morty',
-            latestSeason: 4,
-            latestEpisode: 10,
+            latestSeason: 5,
+            latestEpisode: 8,
         },
         {
             filter: '^Snowpiercer.+1080p',
@@ -44,8 +44,8 @@ exports.handler = async function http() {
         {
             filter: '^Archer.2009.+1080p',
             key: 'Archer',
-            latestSeason: 11,
-            latestEpisode: 8,
+            latestSeason: 12,
+            latestEpisode: 2,
         },
         {
             filter: '^Dream.Corp.LLC.+1080p',
@@ -89,14 +89,14 @@ exports.handler = async function http() {
             key: 'Super Cub',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 10,
+            latestEpisode: 12,
         },
         {
             filter: 'Godzilla.Singular.Point.+1080p',
             key: 'Godzilla Singular Point',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 11,
+            latestEpisode: 13,
         },
         {
             filter: '^Made.for.Love.+1080p',
@@ -114,13 +114,13 @@ exports.handler = async function http() {
             filter: '^Tuca.+Bertie.+1080p',
             key: 'Tuca & Bertie',
             latestSeason: 2,
-            latestEpisode: 1,
+            latestEpisode: 10,
         },
         {
             filter: '^Kevin.Can.Fuck.Himself.+1080p',
             key: 'Kevin.Can.Fuck.Himself',
             latestSeason: 1,
-            latestEpisode: 2,
+            latestEpisode: 8,
         },
         {
             filter: '^PEN15.+1080p',
