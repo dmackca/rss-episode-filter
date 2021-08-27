@@ -4,12 +4,13 @@ const data = require('@begin/data');
 exports.handler = async function http() {
     // seed db with subscriptions
     const subscriptions = [
-        {
-            filter: '^Perry.Mason.+1080p',
-            key: 'Perry.Mason',
-            latestSeason: 1,
-            latestEpisode: 8,
-        },
+        // disabled after this matched dozens of episodes of the 1957 series
+        // {
+        //     filter: '^Perry.Mason.+1080p',
+        //     key: 'Perry.Mason',
+        //     latestSeason: 1,
+        //     latestEpisode: 8,
+        // },
         {
             filter: '^Better.Call.Saul.+1080p',
             key: 'Better.Call.Saul',
