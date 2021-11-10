@@ -128,6 +128,12 @@ exports.handler = async function http() {
             latestSeason: 2,
             latestEpisode: 7,
         },
+        {
+            filter: '^Joe.Pera.Talks.With.You.+1080p',
+            key: 'Joe Pera Talks With You',
+            latestSeason: 3,
+            latestEpisode: 2,
+        },
     ];
 
     await data.set(subscriptions.map((e) => ({
