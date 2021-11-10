@@ -33,7 +33,7 @@ exports.handler = async function http() {
             filter: '^Rick.+Morty.+1080p',
             key: 'Rick.Morty',
             latestSeason: 5,
-            latestEpisode: 8,
+            latestEpisode: 10,
         },
         {
             filter: '^Snowpiercer.+1080p',
@@ -45,7 +45,7 @@ exports.handler = async function http() {
             filter: '^Archer.2009.+1080p',
             key: 'Archer',
             latestSeason: 12,
-            latestEpisode: 2,
+            latestEpisode: 8,
         },
         {
             filter: '^Dream.Corp.LLC.+1080p',
