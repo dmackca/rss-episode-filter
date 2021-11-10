@@ -147,6 +147,6 @@ exports.handler = async function http() {
             'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
             'content-type': 'text/plain; charset=utf8',
         },
-        body: 'db seeded! ' + (new Date()).toString(),
+        body: `db seeded! ${(new Date()).toString()}`,
     };
 };
