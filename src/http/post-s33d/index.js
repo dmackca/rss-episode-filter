@@ -1,7 +1,7 @@
 const data = require('@begin/data');
 
 // learn more about HTTP functions here: https://arc.codes/primitives/http
-exports.handler = async function http() {
+exports.handler = async function http(req) {
     if (req.queryStringParameters.auth !== process.env.API_AUTH) throw new Error('Incorrect auth');
 
     // seed db with subscriptions
