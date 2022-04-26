@@ -14,14 +14,14 @@ exports.handler = async function http() {
         {
             filter: '^Better.Call.Saul.+1080p',
             key: 'Better.Call.Saul',
-            latestSeason: 5,
-            latestEpisode: 10,
+            latestSeason: 6,
+            latestEpisode: 3,
         },
         {
             filter: '^Its.Always.Sunny.in.Philadelphia.+1080p',
             key: 'Its.Always.Sunny.in.Philadelphia',
-            latestSeason: 14,
-            latestEpisode: 10,
+            latestSeason: 15,
+            latestEpisode: 8,
         },
         {
             filter: '^(Genndy.Tartakovskys.)?Primal.S[0-9]{2}.+1080p',
@@ -38,7 +38,7 @@ exports.handler = async function http() {
         {
             filter: '^Snowpiercer.+1080p',
             key: 'Snowpiercer',
-            latestSeason: 2,
+            latestSeason: 3,
             latestEpisode: 10,
         },
         {
@@ -56,7 +56,7 @@ exports.handler = async function http() {
         {
             filter: '^How.To.with.John.Wilson.+1080p',
             key: 'How.To.with.John.Wilson',
-            latestSeason: 1,
+            latestSeason: 2,
             latestEpisode: 6,
         },
         {
@@ -64,32 +64,13 @@ exports.handler = async function http() {
             key: 'Attack on Titan',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 75,
+            latestEpisode: 87,
         },
         {
             filter: '^Search.Party.+1080p',
             key: 'Search Party',
-            latestSeason: 4,
+            latestSeason: 5,
             latestEpisode: 10,
-        },
-        {
-            filter: '^Painting.with.John.+1080p',
-            key: 'Painting with John',
-            latestSeason: 1,
-            latestEpisode: 6,
-        },
-        {
-            filter: '^Birdgirl.+1080p',
-            key: 'Birdgirl',
-            latestSeason: 1,
-            latestEpisode: 6,
-        },
-        {
-            filter: 'Super.Cub.+1080p',
-            key: 'Super Cub',
-            feed: 'AB', // only use on "AB" feed
-            latestSeason: 0,
-            latestEpisode: 12,
         },
         {
             filter: 'Godzilla.Singular.Point.+1080p',
@@ -126,13 +107,19 @@ exports.handler = async function http() {
             filter: '^PEN15.+1080p',
             key: 'PEN15',
             latestSeason: 2,
-            latestEpisode: 7,
+            latestEpisode: 15,
         },
         {
             filter: '^Joe.Pera.Talks.With.You.+1080p',
             key: 'Joe Pera Talks With You',
             latestSeason: 3,
-            latestEpisode: 2,
+            latestEpisode: 9,
+        },
+        {
+            filter: '^Barry.S..E.+1080p',
+            key: 'Barry',
+            latestSeason: 3,
+            latestEpisode: 1,
         },
     ];
 
