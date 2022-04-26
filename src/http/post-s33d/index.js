@@ -2,6 +2,8 @@ const data = require('@begin/data');
 
 // learn more about HTTP functions here: https://arc.codes/primitives/http
 exports.handler = async function http() {
+    if (req.queryStringParameters.auth !== process.env.API_AUTH) throw new Error('Incorrect auth');
+
     // seed db with subscriptions
     const subscriptions = [
         // disabled after this matched dozens of episodes of the 1957 series
