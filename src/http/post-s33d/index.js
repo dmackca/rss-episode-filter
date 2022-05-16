@@ -17,7 +17,7 @@ exports.handler = async function http(req) {
             filter: '^Better.Call.Saul.+1080p',
             key: 'Better.Call.Saul',
             latestSeason: 6,
-            latestEpisode: 3,
+            latestEpisode: 5,
         },
         {
             filter: '^Its.Always.Sunny.in.Philadelphia.+1080p',
@@ -84,8 +84,8 @@ exports.handler = async function http(req) {
         {
             filter: '^Made.for.Love.+1080p',
             key: 'Made.for.Love',
-            latestSeason: 1,
-            latestEpisode: 8,
+            latestSeason: 2,
+            latestEpisode: 6,
         },
         {
             filter: '^This.Time.With.Alan.Partridge.+1080p',
@@ -121,7 +121,14 @@ exports.handler = async function http(req) {
             filter: '^Barry.S..E.+1080p',
             key: 'Barry',
             latestSeason: 3,
-            latestEpisode: 1,
+            latestEpisode: 4,
+        },
+        {
+            filter: '^Spy.+Family.+1080p',
+            key: 'Spy Family',
+            feed: 'AB', // only use on "AB" feed
+            latestSeason: 0,
+            latestEpisode: 6,
         },
     ];
 
