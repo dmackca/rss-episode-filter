@@ -17,7 +17,7 @@ exports.handler = async function http(req) {
             filter: '^Better.Call.Saul.+1080p',
             key: 'Better.Call.Saul',
             latestSeason: 6,
-            latestEpisode: 5,
+            latestEpisode: 8,
         },
         {
             filter: '^Its.Always.Sunny.in.Philadelphia.+1080p',
@@ -85,7 +85,7 @@ exports.handler = async function http(req) {
             filter: '^Made.for.Love.+1080p',
             key: 'Made.for.Love',
             latestSeason: 2,
-            latestEpisode: 6,
+            latestEpisode: 8,
         },
         {
             filter: '^This.Time.With.Alan.Partridge.+1080p',
@@ -96,8 +96,8 @@ exports.handler = async function http(req) {
         {
             filter: '^Tuca.+Bertie.+1080p',
             key: 'Tuca & Bertie',
-            latestSeason: 2,
-            latestEpisode: 10,
+            latestSeason: 3,
+            latestEpisode: 2,
         },
         {
             filter: '^Kevin.Can.Fuck.Himself.+1080p',
@@ -121,14 +121,20 @@ exports.handler = async function http(req) {
             filter: '^Barry.S..E.+1080p',
             key: 'Barry',
             latestSeason: 3,
-            latestEpisode: 4,
+            latestEpisode: 8,
         },
         {
             filter: '^Spy.+Family.+1080p',
             key: 'Spy Family',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 6,
+            latestEpisode: 12,
+        },
+        {
+            filter: '^The.Rehearsal.+1080p',
+            key: 'The Rehearsal',
+            latestSeason: 1,
+            latestEpisode: 1,
         },
     ];
 
