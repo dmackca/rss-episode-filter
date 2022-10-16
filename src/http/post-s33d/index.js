@@ -22,14 +22,14 @@ exports.handler = async function http(req) {
         {
             filter: '^(Genndy.Tartakovskys.)?Primal.S[0-9]{2}.+1080p',
             key: 'Genndy.Tartakovskys.Primal',
-            latestSeason: 1,
+            latestSeason: 2,
             latestEpisode: 10,
         },
         {
             filter: '^Rick.+Morty.+1080p',
             key: 'Rick.Morty',
-            latestSeason: 5,
-            latestEpisode: 10,
+            latestSeason: 6,
+            latestEpisode: 6,
         },
         {
             filter: '^Snowpiercer.+1080p',
@@ -40,13 +40,7 @@ exports.handler = async function http(req) {
         {
             filter: '^Archer.2009.+1080p',
             key: 'Archer',
-            latestSeason: 12,
-            latestEpisode: 8,
-        },
-        {
-            filter: '^Dream.Corp.LLC.+1080p',
-            key: 'DreamCorp',
-            latestSeason: 3,
+            latestSeason: 13,
             latestEpisode: 8,
         },
         {
@@ -69,13 +63,6 @@ exports.handler = async function http(req) {
             latestEpisode: 10,
         },
         {
-            filter: 'Godzilla.Singular.Point.+1080p',
-            key: 'Godzilla Singular Point',
-            feed: 'AB', // only use on "AB" feed
-            latestSeason: 0,
-            latestEpisode: 13,
-        },
-        {
             filter: '^This.Time.With.Alan.Partridge.+1080p',
             key: 'This Time With Alan Partridge',
             latestSeason: 2,
@@ -92,13 +79,13 @@ exports.handler = async function http(req) {
             key: 'Spy Family',
             feed: 'AB', // only use on "AB" feed
             latestSeason: 0,
-            latestEpisode: 12,
+            latestEpisode: 15,
         },
         {
             filter: '^The.Rehearsal.+1080p',
             key: 'The Rehearsal',
             latestSeason: 1,
-            latestEpisode: 1,
+            latestEpisode: 6,
         },
     ];
 
