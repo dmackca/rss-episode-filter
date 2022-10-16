@@ -87,6 +87,12 @@ exports.handler = async function http(req) {
             latestSeason: 1,
             latestEpisode: 6,
         },
+        {
+            filter: '^House.of.the.Dragon.+1080p',
+            key: 'HotD',
+            latestSeason: 1,
+            latestEpisode: 8,
+        },
     ];
 
     await data.set(subscriptions.map((e) => ({
