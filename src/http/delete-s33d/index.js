@@ -51,7 +51,8 @@ exports.handler = async function http(req) {
                 'content-type': 'application/json; charset=utf8',
             },
             body: JSON.stringify({
-                hello: 'world',
+                delete: req.queryStringParameters.key,
+                deleted: itemToDestroy,
             }),
         };
     } catch (error) {
