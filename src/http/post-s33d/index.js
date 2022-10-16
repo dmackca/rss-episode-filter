@@ -14,12 +14,6 @@ exports.handler = async function http(req) {
         //     latestEpisode: 8,
         // },
         {
-            filter: '^Better.Call.Saul.+1080p',
-            key: 'Better.Call.Saul',
-            latestSeason: 6,
-            latestEpisode: 8,
-        },
-        {
             filter: '^Its.Always.Sunny.in.Philadelphia.+1080p',
             key: 'Its.Always.Sunny.in.Philadelphia',
             latestSeason: 15,
@@ -82,40 +76,10 @@ exports.handler = async function http(req) {
             latestEpisode: 13,
         },
         {
-            filter: '^Made.for.Love.+1080p',
-            key: 'Made.for.Love',
-            latestSeason: 2,
-            latestEpisode: 8,
-        },
-        {
             filter: '^This.Time.With.Alan.Partridge.+1080p',
             key: 'This Time With Alan Partridge',
             latestSeason: 2,
             latestEpisode: 6,
-        },
-        {
-            filter: '^Tuca.+Bertie.+1080p',
-            key: 'Tuca & Bertie',
-            latestSeason: 3,
-            latestEpisode: 2,
-        },
-        {
-            filter: '^Kevin.Can.Fuck.Himself.+1080p',
-            key: 'Kevin.Can.Fuck.Himself',
-            latestSeason: 1,
-            latestEpisode: 8,
-        },
-        {
-            filter: '^PEN15.+1080p',
-            key: 'PEN15',
-            latestSeason: 2,
-            latestEpisode: 15,
-        },
-        {
-            filter: '^Joe.Pera.Talks.With.You.+1080p',
-            key: 'Joe Pera Talks With You',
-            latestSeason: 3,
-            latestEpisode: 9,
         },
         {
             filter: '^Barry.S..E.+1080p',
